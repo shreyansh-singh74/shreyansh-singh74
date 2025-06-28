@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-
 - 🔭 I’m currently working on [**Bookmark AI**](https://github.com/shreyansh-singh74/BookMarkApp)
 - 🌱 I’m currently learning **AI Engineering**
 - 👯 I’m looking to collaborate on **AI projects**
@@ -8,13 +7,9 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-<<<<<<< HEAD
-![Visits](https://img.shields.io/badge/Visits-0-blue)
+![Visits](https://img.shields.io/badge/Visits-8-blue)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-=======
-![Visits](https://img.shields.io/badge/Visits-8-blue)
 
 [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
->>>>>>> 26b89c18bdd78b0b5a760d45227f3e1dc122702e

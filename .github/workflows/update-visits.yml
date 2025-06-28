@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/15 * * * *'  # every 15 minutes
+    - cron: "*/15 * * * *" # every 15 minutes
 
 jobs:
   update-visits:
@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Increment visit counter
         id: increment
@@ -25,7 +25,7 @@ jobs:
           visits=$(cat visits.txt)
           visits=$((visits + 1))
           echo $visits > visits.txt
-          echo "::set-output name=visits::$visits"
+          echo "visits=$visits" >> $GITHUB_OUTPUT
 
       - name: Update README.md
         run: |

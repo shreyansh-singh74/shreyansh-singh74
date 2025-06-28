@@ -1,15 +1,20 @@
 name: Waka Readme
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *" # Runs every day at 12 AM UTC (5:30 AM IST)
 
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
