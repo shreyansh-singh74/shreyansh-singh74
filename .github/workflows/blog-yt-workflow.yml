@@ -1,0 +1,33 @@
+name: Blog and Video Posts Workflow
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with Blog and YouTube posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Add blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://dev.to/feed/shreyanshdon2005"
+          comment_tag_name: "BLOG-POST-LIST"
+          max_post_count: 4
+
+      - name: Add YouTube videos
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg"
+          comment_tag_name: "YOUTUBE-POST-LIST"
+          custom_tags: "channelId/yt:channelId/,videoId/yt:videoId/"
+          date_format: "mmm d, yyyy"
+          template: '<table><tr><td><a href="$url"><img width="140px" src="http://img.youtube.com/vi/$videoId/maxresdefault.jpg"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'

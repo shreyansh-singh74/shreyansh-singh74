@@ -23,3 +23,12 @@ Text       0 secs          ░░░░░░░░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
+
+
+### 📝 Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+### 📺 Latest YouTube Videos
+<!-- YOUTUBE-POST-LIST:START -->
+<!-- YOUTUBE-POST-LIST:END -->
