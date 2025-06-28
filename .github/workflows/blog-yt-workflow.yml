@@ -19,7 +19,7 @@ jobs:
       - name: Add blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://dev.to/feed/shreyanshdon2005"
+          feed_list: "https://medium.com/feed/@shreyanshdon2005"
           comment_tag_name: "BLOG-POST-LIST"
           max_post_count: 4
 
