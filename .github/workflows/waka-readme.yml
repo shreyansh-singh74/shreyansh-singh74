@@ -1,27 +1,33 @@
 name: Waka Readme
 
+on:
+  schedule:
+    - cron: '30 18 * * *' # runs every day at 12:00 AM IST
+  workflow_dispatch:
+
 permissions:
   contents: write
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # Runs every day at 12 AM UTC (5:30 AM IST)
-
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update README with Waka Stats
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SECTION_NAME: waka
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+          # Optional flags (you can remove any you don’t want)
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "True"
+          SHOW_EDITORS: "True"
+          SHOW_COMMIT: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_LANGUAGE: "True"
+          SHOW_TOTAL_CODE_TIME: "True"
+          SHOW_TIMEZONE: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_PROFILE_VIEWS: "True"
+          COMMIT_BY_ME: "True"
+          COMMIT_MESSAGE: "✨ Updated with Dev Metrics"
