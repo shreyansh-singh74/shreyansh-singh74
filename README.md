@@ -9,3 +9,6 @@
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
 ![Visits](https://img.shields.io/badge/Visits-0-blue)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
