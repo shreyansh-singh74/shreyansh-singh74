@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
+    - cron: '*/15 * * * *'  # every 15 minutes
 
 jobs:
   update-visits:
@@ -27,13 +27,19 @@ jobs:
       - name: Update README.md
         run: |
           visits=${{ steps.increment.outputs.visits }}
-          badge="![Visits](https://img.shields.io/badge/Visits-32685-blue)"
+          badge="![Visits](https://img.shields.io/badge/Visits-${visits}-blue)"
           sed -i 's|!\[Visits\](https://img.shields.io/badge/Visits-.*-blue)|'"$badge"'|' README.md
 
-      - name: Commit changes
+      - name: Set up authentication
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add visits.txt README.md
-          git commit -m 'Update visits count'
+          git commit -m 'Update visits count' || echo "No changes to commit"
           git push
+        env:
+          GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

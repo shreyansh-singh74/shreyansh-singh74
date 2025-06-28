@@ -8,6 +8,4 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-![](https://komarev.com/ghpvc/?username=shreyansh-singh74&color=dc143c)
-
-![Visits](https://img.shields.io/badge/Visits-32685-blue)
+![Visits](https://img.shields.io/badge/Visits-0-blue)
