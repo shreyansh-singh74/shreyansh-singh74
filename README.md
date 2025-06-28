@@ -7,9 +7,19 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-![Visits](https://img.shields.io/badge/Visits-8-blue)
+![Visits](https://img.shields.io/badge/Visits-12-blue)
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 21 June 2025 - To: 28 June 2025
+
+Total Time: 5 mins
+
+Markdown   5 mins          █████████████████████████   99.91 %
+Text       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+```
+
 <!--END_SECTION:waka-->
 
 [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
