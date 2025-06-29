@@ -7,7 +7,7 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-![Visits](https://img.shields.io/badge/Visits-96-blue)
+![Visits](https://img.shields.io/badge/Visits-97-blue)
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-5%20mins-blue)
