@@ -10,7 +10,7 @@
 ![Visits](https://img.shields.io/badge/Visits-140-blue)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-5%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2048%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-91-blue)
 
@@ -51,17 +51,20 @@ Sunday                   49 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 5 mins              █████████████████████████   99.91 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
+YAML                     58 mins             ██████████████░░░░░░░░░░░   54.31 % 
+Markdown                 36 mins             ████████░░░░░░░░░░░░░░░░░   33.51 % 
+JavaScript               13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.10 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
 
 🔥 Editors: 
-VS Code                  5 mins              █████████████████████████   100.00 % 
+VS Code                  1 hr 48 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-shreyansh-singh74        5 mins              █████████████████████████   100.00 % 
+shreyansh-singh74        1 hr 35 mins        ██████████████████████░░░   87.90 % 
+Profile                  13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.10 % 
 
 💻 Operating System: 
-Windows                  5 mins              █████████████████████████   100.00 % 
+Windows                  1 hr 48 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -79,7 +82,7 @@ Python                   4 repos             ██████░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/main/assets/bar_graph.png)
 
 
- Last Updated on 29/06/2025 18:47:57 UTC
+ Last Updated on 30/06/2025 18:51:11 UTC
 <!--END_SECTION:waka-->
 
 [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
