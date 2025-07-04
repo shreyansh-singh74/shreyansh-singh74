@@ -10,15 +10,13 @@
 ![Visits](https://img.shields.io/badge/Visits-389-blue)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%20hrs%202%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%20hrs%2035%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-113-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-119-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 278.4 kB Used in GitHub's Storage 
- > 
-> 🏆 105 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -87,7 +85,7 @@ Python                   4 repos             ██████░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/main/assets/bar_graph.png)
 
 
- Last Updated on 04/07/2025 07:37:37 UTC
+ Last Updated on 04/07/2025 18:49:24 UTC
 <!--END_SECTION:waka-->
 
 [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
