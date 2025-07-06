@@ -1,4 +1,11 @@
-## Hi there 👋
+<h1>
+  <center>Hii, I'm Shreyansh! 👋</center>
+</h1>
+
+<h2>
+  Full-Stack Developer 
+</h2>
+
 
 - 🔭 I’m currently working on [**Bookmark AI**](https://github.com/shreyansh-singh74/BookMarkApp)
 - 🌱 I’m currently learning **AI Engineering**
