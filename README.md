@@ -10,7 +10,6 @@
 ![Visits](https://img.shields.io/badge/Visits-514-blue)
 
 <!--START_SECTION:waka-->
-
 <!--END_SECTION:waka-->
 
 <details>

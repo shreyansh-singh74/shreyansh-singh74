@@ -32,6 +32,3 @@ jobs:
           date_format: "mmm d, yyyy"
           template: '<table><tr><td><a href="$url"><img width="140px" src="http://img.youtube.com/vi/$videoId/maxresdefault.jpg"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
 
-
-- name: generate-snake-game-from-github-contribution-grid
-  uses: Platane/snk@v3.3.0
