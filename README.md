@@ -10,13 +10,11 @@
 ![Visits](https://img.shields.io/badge/Visits-505-blue)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-7%20hrs%2019%20mins-blue)
-
 **🐱 My GitHub Data** 
 
 > 📦 278.5 kB Used in GitHub's Storage 
  > 
-> 🏆 105 Contributions in the Year 2025
+> 🏆 111 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -24,12 +22,21 @@
  > 
 > 🔑 6 Private Repositories 
  > 
-**Timeline**
+📅 **I'm Most Productive on Monday** 
 
-![Lines of Code chart](https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/main/assets/bar_graph.png)
+```text
+Monday                   61 commits          █████░░░░░░░░░░░░░░░░░░░░   21.18 % 
+Tuesday                  48 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+Wednesday                35 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
+Thursday                 35 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
+Friday                   27 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.38 % 
+Saturday                 27 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.38 % 
+Sunday                   55 commits          █████░░░░░░░░░░░░░░░░░░░░   19.10 % 
+```
 
 
- Last Updated on 06/07/2025 10:42:10 UTC
+
+ Last Updated on 06/07/2025 10:50:57 UTC
 <!--END_SECTION:waka-->
 
 <details>
