@@ -4,6 +4,16 @@
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
 
+```
+Full-Stack Developer From
+<img src="assets/flag.png" width="30px" >
+```
+     
+<pre>
+  <code>
+    🌐 Full-Stack Developer From <img src="assets/flag.png" width="20px" padding="30px">
+  </code>
+</pre>
 
 <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
   🌐 Full-Stack Developer From <img src="assets/flag.png" width="20px">
@@ -39,17 +49,6 @@
 #### ⌛This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
-
-```txt
-From: 28 June 2025 - To: 05 July 2025
-
-JavaScript   3 hrs 31 mins   ███████████████░░░░░░░░░░   60.29 %
-YAML         1 hr 2 mins     ████▒░░░░░░░░░░░░░░░░░░░░   17.81 %
-C++          35 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.05 %
-Markdown     33 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.53 %
-CSS          4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
-```
-
 <!--END_SECTION:waka-->
 
 <details>
