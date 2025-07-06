@@ -10,33 +10,16 @@
 ![Visits](https://img.shields.io/badge/Visits-504-blue)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-7%20hrs%2019%20mins-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 278.5 kB Used in GitHub's Storage 
- > 
-> 🏆 105 Contributions in the Year 2025
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 10 Public Repositories 
- > 
-> 🔑 6 Private Repositories 
- > 
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/main/assets/bar_graph.png)
-
-
- Last Updated on 06/07/2025 10:42:10 UTC
 <!--END_SECTION:waka-->
 
 <details>
   <summary>📊 GitHub Stats</summary>
-  <br/>
-[![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
+  <br>
+  <a href="https://github.com/shreyansh-singh74">
+    <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74" alt="Shreyansh Stats" />
+  </a>
 </details>
+
 
 <details>
   <summary>### 📝 Latest Blog Posts</summary>
