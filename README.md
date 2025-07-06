@@ -10,18 +10,6 @@
 ![Visits](https://img.shields.io/badge/Visits-514-blue)
 
 <!--START_SECTION:waka-->
-**🐱 My GitHub Data** 
-
-> 📦 278.5 kB Used in GitHub's Storage 
- > 
-> 🏆 115 Contributions in the Year 2025
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 10 Public Repositories 
- > 
-> 🔑 6 Private Repositories 
- > 
 
 <!--END_SECTION:waka-->
 
