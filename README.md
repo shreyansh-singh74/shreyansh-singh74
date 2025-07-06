@@ -7,14 +7,14 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-![Visits](https://img.shields.io/badge/Visits-510-blue)
+![Visits](https://img.shields.io/badge/Visits-511-blue)
 
 <!--START_SECTION:waka-->
 **🐱 My GitHub Data** 
 
 > 📦 278.5 kB Used in GitHub's Storage 
  > 
-> 🏆 115 Contributions in the Year 2025
+> 🏆 105 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -34,7 +34,6 @@ CSS                      4 mins              ░░░░░░░░░░░�
 ```
 
 
- Last Updated on 06/07/2025 10:57:47 UTC
 <!--END_SECTION:waka-->
 
 <details>
