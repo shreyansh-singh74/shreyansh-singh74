@@ -14,8 +14,12 @@
 - 🌱 I’m currently learning **AI Engineering**
 - 📫 Reach me: `shreyansh.workid@gmail.com`
 
+<<<<<<< HEAD
 
 ![Views](https://img.shields.io/badge/Visits-546-blue)
+=======
+![Visits](https://img.shields.io/badge/Visits-553-blue)
+>>>>>>> b1f60e30f93a3e8bc9db889db837397af32682dd
 
 
 ## Skills
