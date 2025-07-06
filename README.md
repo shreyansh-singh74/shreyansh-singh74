@@ -7,8 +7,10 @@
 
 
 <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-  <b>🌐 Full-Stack Developer From</b>&emsp;  <img src="assets/flag.png" width="20px" style="vertical-align: middle;">
+  <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px" style="vertical-align: middle;">
 </div>
+
+
 
 <br>
  
@@ -21,7 +23,7 @@
 
 
 
-### Skills
+### Skills 
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
@@ -37,6 +39,8 @@
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat)
+
+
 
 #### ⌛This Week I Spent My Time On
 
@@ -76,4 +80,19 @@
 <td><a href="https://www.youtube.com/shorts/GvQtHM05rV0">Developer&#39;s Worst Nightmare</a><br/>Feb 18, 2025</td></tr></table>
 <!-- YOUTUBE-POST-LIST:END -->
 </details>
+<br>
 
+---
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shreyansh-singh74/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://x.com/ShreyanshWorks">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Visits-0-blue" alt="Visits">
+</p>
