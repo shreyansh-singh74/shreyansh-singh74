@@ -32,3 +32,5 @@ jobs:
           COMMIT_BY_ME: "False"
           SHOW_LINES_OF_CODE: "False"
           SHOW_LOC_CHART: "False"
+          SHOW_UPDATED_DATE: "False"
+          SHOW_TOTAL: "False"
