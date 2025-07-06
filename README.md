@@ -22,6 +22,17 @@
  > 
 > 🔑 6 Private Repositories 
  > 
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+JavaScript               3 hrs 31 mins       ███████████████░░░░░░░░░░   60.29 % 
+YAML                     1 hr 2 mins         ████░░░░░░░░░░░░░░░░░░░░░   17.81 % 
+C++                      35 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.05 % 
+Markdown                 33 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.53 % 
+CSS                      4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
+```
+
 
 <!--END_SECTION:waka-->
 
