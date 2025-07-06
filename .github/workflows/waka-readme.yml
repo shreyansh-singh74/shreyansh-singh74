@@ -22,14 +22,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
           # Hide the GitHub Data section completely
-          SHOW_PROFILE: "False"
+          SHOW_PROFILE: "True"
 
           # Keep only what you want to show
           SHOW_LANGUAGE: "True"
           SHOW_TOTAL: "False"
 
           # Disable everything else
-          SHOW_OS: "False"
+          SHOW_OS: "True"
           SHOW_PROJECTS: "False"
           SHOW_EDITORS: "False"
           SHOW_COMMIT: "False"
