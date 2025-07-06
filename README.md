@@ -17,7 +17,7 @@
 - 📫 How to reach me: **shreyansh.workid@gmail.com**
 - ⚡ Fun fact: I like to making **tutorial videos**!
 
-![Visits](https://img.shields.io/badge/Visits-548-blue)
+![Visits](https://img.shields.io/badge/Visits-549-blue)
 
 
 ## Skills
