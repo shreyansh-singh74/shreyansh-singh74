@@ -1,11 +1,11 @@
-
-<div >
+<div align="center">
   <h1>
-    <center>Hii, I'm Shreyansh! 👋</center>
+    Hii, I'm Shreyansh! 
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
 
   <h2>
-    Full-Stack Developer 
+    Full-Stack Developer.
   </h2>
 </div>
 
