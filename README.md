@@ -81,9 +81,6 @@ Python                   4 repos             ██████░░░░░�
 
 
 
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/main/assets/bar_graph.png)
 
 
  Last Updated on 02/07/2025 18:50:56 UTC
@@ -92,7 +89,7 @@ Python                   4 repos             ██████░░░░░�
 <details>
   <summary>📊 GitHub Stats</summary>
   <br/>
-  [![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
+[![Shreyansh Stats](https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74)](https://github.com/shreyansh-singh74)
 </details>
 
 <details>
