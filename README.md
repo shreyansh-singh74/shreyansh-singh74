@@ -19,6 +19,22 @@
 ## 📊 This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 28 June 2025 - To: 05 July 2025
+
+Total Time: 5 hrs 51 mins
+
+JavaScript   3 hrs 31 mins   ███████████████░░░░░░░░░░   60.29 %
+YAML         1 hr 2 mins     ████▒░░░░░░░░░░░░░░░░░░░░   17.81 %
+C++          35 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.05 %
+Markdown     33 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.53 %
+CSS          4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
+JSON         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
+Text         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
+INI          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 %
+```
+
 <!--END_SECTION:waka-->
 
 <details>
