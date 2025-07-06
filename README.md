@@ -4,9 +4,12 @@
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
 
-  <h2>
-    Full-Stack Developer.
-  </h2>
+
+<div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
+  🌐 Full-Stack Developer From <img src="assets/flag.png" width="20px">
+</div>
+
+ 
 </div>
 
 - 💻 I develop Full-Stack Web Apps 
@@ -15,10 +18,8 @@
 - 📫 Reach me: `shreyansh.workid@gmail.com`
 
 
-![Views](https://img.shields.io/badge/Visits-546-blue)
 
-
-## Skills
+### Skills
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
@@ -35,7 +36,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat)
 
-<h4>⌛This Week I Spent My Time On</h4>
+#### ⌛This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
@@ -74,11 +75,3 @@
 <!-- YOUTUBE-POST-LIST:END -->
 </details>
 
-
-## 🐍 GitHub Activity Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg" />
-</picture>
