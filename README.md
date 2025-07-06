@@ -9,7 +9,7 @@
   </h2>
 </div>
 
-
+- I develop FullStack Apps. 
 - 🔭 I’m currently working on [**Bookmark AI**](https://github.com/shreyansh-singh74/BookMarkApp)
 - 🌱 I’m currently learning **AI Engineering**
 - 👯 I’m looking to collaborate on **AI projects**
@@ -51,15 +51,17 @@
 
 
 <details>
-  <summary>### 📝 Latest Blog Posts</summary>
+  <summary> Latest Blog Posts</summary>
+
   <!-- BLOG-POST-LIST:START -->
 - [How to make Naruto using python turtle](https://shreyanshdon2005.medium.com/how-to-make-naruto-using-python-turtle-5b082dec2cf?source=rss-e1325ac72520------2)
 - [Python turtle projects | Increase turtle speed](https://shreyanshdon2005.medium.com/increase-speed-of-turtle-without-the-turtle-speed-python-turtle-2b6fcd719947?source=rss-e1325ac72520------2)
 <!-- BLOG-POST-LIST:END -->
 </details>
 
-### 📺 Latest YouTube Videos
 
+<details>
+<summary>📺 Latest YouTube Videos</summary>
 <!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/shorts/8wisiga7bDQ">What is a .env File? | How to Create and Use?</a><br/>Jun 16, 2025</td></tr></table>
 <table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a></td>
@@ -71,7 +73,7 @@
 <table><tr><td><a href="https://www.youtube.com/shorts/GvQtHM05rV0"><img width="140px" src="http://img.youtube.com/vi/GvQtHM05rV0/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/shorts/GvQtHM05rV0">Developer&#39;s Worst Nightmare</a><br/>Feb 18, 2025</td></tr></table>
 <!-- YOUTUBE-POST-LIST:END -->
-
+</details>
 
 
 ## 🐍 GitHub Activity Snake
