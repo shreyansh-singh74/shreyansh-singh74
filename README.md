@@ -4,21 +4,13 @@
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
 
-```
-Full-Stack Developer From
-<img src="assets/flag.png" width="30px" >
-```
-     
-<pre>
-  <code>
-    🌐 Full-Stack Developer From <img src="assets/flag.png" width="20px" padding="30px">
-  </code>
-</pre>
+
 
 <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-  🌐 Full-Stack Developer From <img src="assets/flag.png" width="20px">
+  <b>🌐 Full-Stack Developer From</b>&emsp;  <img src="assets/flag.png" width="20px" style="vertical-align: middle;">
 </div>
 
+<br>
  
 </div>
 
