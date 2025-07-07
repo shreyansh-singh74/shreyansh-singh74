@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/15 * * * *" # every 15 minutes
+    - cron: "*/15 * * * *"
 
 jobs:
   update-visits:
@@ -27,11 +27,16 @@ jobs:
           echo $visits > visits.txt
           echo "visits=$visits" >> $GITHUB_OUTPUT
 
+      - name: Debug - Show visits and badge
+        run: |
+          echo "Visits: ${{ steps.increment.outputs.visits }}"
+          echo "Badge: ![Visits](https://img.shields.io/badge/Visits-${{ steps.increment.outputs.visits }}-blue)"
+
       - name: Update README.md
         run: |
           visits=${{ steps.increment.outputs.visits }}
           badge="![Visits](https://img.shields.io/badge/Visits-${visits}-blue)"
-          sed -i 's|!\[Visits\](https://img.shields.io/badge/Visits-.*-blue)|'"$badge"'|' README.md
+          sed -i.bak 's|!\[Visits\](https://img.shields.io/badge/Visits-.*-blue)|'"$badge"'|' README.md
 
       - name: Set up authentication
         run: |
