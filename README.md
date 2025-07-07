@@ -81,7 +81,6 @@ CSS          4 mins          ▒░░░░░░░░░░░░░░░░
 <br>
 
 ---
-
 <!-- Footer -->
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-singh74/">
@@ -92,9 +91,7 @@ CSS          4 mins          ▒░░░░░░░░░░░░░░░░
   </a>
 </p>
 
-
 <div align="center">
 
   ![Visits](https://img.shields.io/badge/Visits-0-blue)
-
 </div>
