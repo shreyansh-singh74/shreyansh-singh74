@@ -93,5 +93,5 @@ CSS          4 mins          ▒░░░░░░░░░░░░░░░░
 
 <div align="center">
 
-  ![Visits](https://img.shields.io/badge/Visits-0-blue)
+  ![Visits](https://img.shields.io/badge/Visits-591-blue)
 </div>
