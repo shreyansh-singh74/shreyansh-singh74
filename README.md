@@ -69,7 +69,7 @@ CSS          4 mins          ▒░░░░░░░░░░░░░░░░
 
   <!-- BLOG-POST-LIST:START -->
   <!-- BLOG-POST-LIST:END -->
-  
+
 </details>
 
 
