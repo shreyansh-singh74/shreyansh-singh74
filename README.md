@@ -105,5 +105,5 @@ Text         10 mins         ▓░░░░░░░░░░░░░░░░
 
 <div align="center">
 
-  ![Visits](https://img.shields.io/badge/Visits-700-blue)
+  ![Visits](https://img.shields.io/badge/Visits-701-blue)
 </div>
