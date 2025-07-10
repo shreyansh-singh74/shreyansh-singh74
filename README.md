@@ -105,5 +105,5 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 
 <div align="center">
 
-  ![Visits](https://img.shields.io/badge/Visits-803-blue)
+  ![Visits](https://img.shields.io/badge/Visits-804-blue)
 </div>
