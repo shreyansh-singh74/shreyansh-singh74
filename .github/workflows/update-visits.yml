@@ -35,8 +35,8 @@ jobs:
       - name: Update README.md
         run: |
           visits=${{ steps.increment.outputs.visits }}
-          badge="![Visits](https://img.shields.io/badge/Visits-${visits}-blue)"
-          sed -i.bak 's|!\[Visits\](https://img.shields.io/badge/Visits-.*-blue)|'"$badge"'|' README.md
+          badge="![Visits](https://img.shields.io/badge/views-${visits}-blue)"
+          sed -i.bak 's|!\[Visits\](https://img.shields.io/badge/views-.*-blue)|'"$badge"'|' README.md
 
       - name: Set up authentication
         run: |
@@ -50,4 +50,4 @@ jobs:
           git commit -m 'Update visits count' || echo "No changes to commit"
           git push
         env:
-          GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
