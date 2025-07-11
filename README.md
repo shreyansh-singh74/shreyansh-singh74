@@ -59,12 +59,22 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
   <summary>📊 GitHub Stats</summary>
   <br>
   <div align="center">
-    <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74&show_icons=true&theme=dark&hide_border=true" alt="Shreyansh's GitHub Stats" />
-    <br><br>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyansh-singh74&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
-    <br><br>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreyansh-singh74&theme=dark&hide_border=true" alt="GitHub Streak" />
-    <br><br>
+    <table>
+      <tr>
+        <td align="center">
+          <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74&show_icons=true&theme=dark&hide_border=true" alt="Shreyansh's GitHub Stats" />
+        </td>
+        <td align="center">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyansh-singh74&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreyansh-singh74&theme=dark&hide_border=true" alt="GitHub Streak" />
+        </td>
+      </tr>
+    </table>
+    <br>
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg">
