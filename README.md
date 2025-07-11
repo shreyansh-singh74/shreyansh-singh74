@@ -39,7 +39,7 @@
 
 
 
-#### ⌛This Week I Spent My Time On
+#### Week Spent On ⌛
 
 <!--START_SECTION:waka-->
 
@@ -121,37 +121,27 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 </div>
 </details>
 
----
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>
+</div>
+
+---
 <!-- Footer -->
 <div align="center">
 
-### 🤝 Let's Connect!
-
+<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-singh74/">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: invert(27%) sepia(93%) saturate(1352%) hue-rotate(204deg) brightness(95%) contrast(85%);"/>
+    <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://x.com/ShreyanshWorks">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X" width="40" height="40" style="filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"/>
+    <img src="assets/x.png" alt="X" width="25"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://medium.com/@shreyanshdon2005">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/medium.svg" alt="Medium" width="40" height="40" style="filter: invert(7%) sepia(7%) saturate(1352%) hue-rotate(0deg) brightness(95%) contrast(85%);"/>
-  </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://youtube.com/@shreyanshworks">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="40" height="40" style="filter: invert(15%) sepia(100%) saturate(7500%) hue-rotate(355deg) brightness(100%) contrast(120%);"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:shreyansh.workid@gmail.com">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" width="40" height="40" style="filter: invert(15%) sepia(100%) saturate(7500%) hue-rotate(355deg) brightness(100%) contrast(120%);"/>
+    <img src="assets/yt.png" alt="YouTube" width="25"/>
   </a>
 </p>
 
-<span align="center">
-
-
-  ![Visits](https://img.shields.io/badge/Visits-842-blue)
-</span>
