@@ -88,17 +88,20 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 
 <details>
 <summary>📺 Latest YouTube Videos</summary>
-<!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/shorts/8wisiga7bDQ">What is a .env File? | How to Create and Use?</a><br/>Jun 16, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8">GitHub Gist: The Secret Tool You Never Use!</a><br/>May 8, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="140px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU">Solve Your First 100 LeetCode Question</a><br/>Apr 23, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/shorts/9KXT3RGJxHQ"><img width="140px" src="http://img.youtube.com/vi/9KXT3RGJxHQ/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/shorts/9KXT3RGJxHQ">Codeforces + VS Code = OP Setup! | Extension For CP</a><br/>Mar 3, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/shorts/GvQtHM05rV0"><img width="140px" src="http://img.youtube.com/vi/GvQtHM05rV0/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/shorts/GvQtHM05rV0">Developer&#39;s Worst Nightmare</a><br/>Feb 18, 2025</td></tr></table>
+
+<div align="center">
+
+<!-- YOUTUBE-POST-LIST:START -->
+| Video | Title & Date |
+|-------|--------------|
+| <a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="100px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a> | [What is a .env File? \| How to Create and Use?](https://www.youtube.com/shorts/8wisiga7bDQ)<br/>📅 Jun 16, 2025 |
+| <a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="100px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a> | [GitHub Gist: The Secret Tool You Never Use!](https://www.youtube.com/shorts/YMVxFwxX2K8)<br/>📅 May 8, 2025 |
+| <a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="100px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a> | [Solve Your First 100 LeetCode Question](https://www.youtube.com/watch?v=iC-WX_sXkFU)<br/>📅 Apr 23, 2025 |
+| <a href="https://www.youtube.com/shorts/9KXT3RGJxHQ"><img width="100px" src="http://img.youtube.com/vi/9KXT3RGJxHQ/maxresdefault.jpg"></a> | [Codeforces + VS Code = OP Setup! \| Extension For CP](https://www.youtube.com/shorts/9KXT3RGJxHQ)<br/>📅 Mar 3, 2025 |
+| <a href="https://www.youtube.com/shorts/GvQtHM05rV0"><img width="100px" src="http://img.youtube.com/vi/GvQtHM05rV0/maxresdefault.jpg"></a> | [Developer's Worst Nightmare](https://www.youtube.com/shorts/GvQtHM05rV0)<br/>📅 Feb 18, 2025 |
 <!-- YOUTUBE-POST-LIST:END -->
+
+</div>
 </details>
 <br>
 
