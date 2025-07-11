@@ -85,31 +85,38 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 
 
 <details>
-  <summary> Latest Blog Posts</summary>
-
-  <!-- BLOG-POST-LIST:START -->
-- [chekcing](https://shreyanshdon2005.medium.com/chekcing-72854967d50b?source=rss-e1325ac72520------2)
-- [How to make Naruto using python turtle](https://shreyanshdon2005.medium.com/how-to-make-naruto-using-python-turtle-5b082dec2cf?source=rss-e1325ac72520------2)
-- [Python turtle projects | Increase turtle speed](https://shreyanshdon2005.medium.com/increase-speed-of-turtle-without-the-turtle-speed-python-turtle-2b6fcd719947?source=rss-e1325ac72520------2)
-<!-- BLOG-POST-LIST:END -->
-
-</details>
-
-
-<details>
-<summary>📺 Latest YouTube Videos</summary>
+<summary>📝 My Posts</summary>
 
 <div align="center">
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+| Post | Title & Platform |
+|------|------------------|
+| 📝 | [Checking](https://shreyanshdon2005.medium.com/chekcing-72854967d50b?source=rss-e1325ac72520------2)<br/>• Medium |
+| 📝 | [How to make Naruto using Python Turtle](https://shreyanshdon2005.medium.com/how-to-make-naruto-using-python-turtle-5b082dec2cf?source=rss-e1325ac72520------2)<br/>• Medium |
+| 📝 | [Python Turtle: Increase Speed](https://shreyanshdon2005.medium.com/increase-speed-of-turtle-without-the-turtle-speed-python-turtle-2b6fcd719947?source=rss-e1325ac72520------2)<br/>• Medium |
+<!-- BLOG-POST-LIST:END -->
+
+</td>
+<td width="50%" valign="top">
+
+### 📺 Latest YouTube Videos
 <!-- YOUTUBE-POST-LIST:START -->
 | Video | Title & Date |
 |-------|--------------|
-| <a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="100px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a> | [What is a .env File? \| How to Create and Use?](https://www.youtube.com/shorts/8wisiga7bDQ)<br/>📅 Jun 16, 2025 |
-| <a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="100px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a> | [GitHub Gist: The Secret Tool You Never Use!](https://www.youtube.com/shorts/YMVxFwxX2K8)<br/>📅 May 8, 2025 |
-| <a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="100px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a> | [Solve Your First 100 LeetCode Question](https://www.youtube.com/watch?v=iC-WX_sXkFU)<br/>📅 Apr 23, 2025 |
-| <a href="https://www.youtube.com/shorts/9KXT3RGJxHQ"><img width="100px" src="http://img.youtube.com/vi/9KXT3RGJxHQ/maxresdefault.jpg"></a> | [Codeforces + VS Code = OP Setup! \| Extension For CP](https://www.youtube.com/shorts/9KXT3RGJxHQ)<br/>📅 Mar 3, 2025 |
-| <a href="https://www.youtube.com/shorts/GvQtHM05rV0"><img width="100px" src="http://img.youtube.com/vi/GvQtHM05rV0/maxresdefault.jpg"></a> | [Developer's Worst Nightmare](https://www.youtube.com/shorts/GvQtHM05rV0)<br/>📅 Feb 18, 2025 |
+| <a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="80px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a> | [What is a .env File?](https://www.youtube.com/shorts/8wisiga7bDQ)<br/>📅 Jun 16, 2025 |
+| <a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="80px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a> | [GitHub Gist: Secret Tool!](https://www.youtube.com/shorts/YMVxFwxX2K8)<br/>📅 May 8, 2025 |
+| <a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="80px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a> | [100 LeetCode Questions](https://www.youtube.com/watch?v=iC-WX_sXkFU)<br/>📅 Apr 23, 2025 |
 <!-- YOUTUBE-POST-LIST:END -->
+
+</td>
+</tr>
+</table>
 
 </div>
 </details>
