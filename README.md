@@ -125,18 +125,15 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 
 
 <div align="center">
-<<<<<<< HEAD
   <img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>
-=======
-  <img src="https://img.shields.io/badge/Views-879-8B5CF6?style=flat-square<img src="https://img.shields.io/badge/Views-880-8B5CF6?style=flat-square<img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>logo=eye<img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>logoColor=white<img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>labelColor=6B7280" alt="Profile Views"/>logo=eye<img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>logoColor=white<img src="https://img.shields.io/badge/Views-837-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>labelColor=6B7280" alt="Profile Views"/>
->>>>>>> 1604991cf1b406c8cf0c7140c9536f8c2feabbbe
 </div>
 
 ---
 <!-- Footer -->
 <div align="center">
 
-<br>
+### 🤝 Let's Connect!
+
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-singh74/">
     <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
@@ -150,4 +147,6 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
     <img src="assets/yt.png" alt="YouTube" width="25"/>
   </a>
 </p>
+
+</div>
 
