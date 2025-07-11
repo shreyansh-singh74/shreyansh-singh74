@@ -11,12 +11,12 @@
 
 </div>
 
-<br>
 
+### About me
 - 💻 I develop Full-Stack Web Apps 
-- 🔭 I’m currently working on [**Bookmark AI**](https://github.com/shreyansh-singh74/BookMarkApp)
-- 🌱 I’m currently learning **AI Engineering**
-- 📫 Reach me: `shreyansh.workid@gmail.com`
+- 🌱 I’m currently learning **NextJs**
+- 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp)
+- 📫 Reach me on : `shreyansh.workid@gmail.com`
 
 
 
@@ -58,9 +58,19 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 <details>
   <summary>📊 GitHub Stats</summary>
   <br>
-  <a href="https://github.com/shreyansh-singh74">
-    <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74" alt="Shreyansh Stats" />
-  </a>
+  <div align="center">
+    <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74&show_icons=true&theme=dark&hide_border=true" alt="Shreyansh's GitHub Stats" />
+    <br><br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyansh-singh74&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+    <br><br>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreyansh-singh74&theme=dark&hide_border=true" alt="GitHub Streak" />
+    <br><br>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg">
+      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg">
+    </picture>
+  </div>
 </details>
 
 
@@ -93,17 +103,36 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
 <br>
 
 ---
+
 <!-- Footer -->
+<div align="center">
+
+### 🤝 Let's Connect!
+
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-singh74/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="filter: invert(27%) sepia(93%) saturate(1352%) hue-rotate(204deg) brightness(95%) contrast(85%);"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://x.com/ShreyanshWorks">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X" width="40" height="40" style="filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://medium.com/@shreyanshdon2005">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/medium.svg" alt="Medium" width="40" height="40" style="filter: invert(7%) sepia(7%) saturate(1352%) hue-rotate(0deg) brightness(95%) contrast(85%);"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://youtube.com/@shreyanshworks">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="40" height="40" style="filter: invert(15%) sepia(100%) saturate(7500%) hue-rotate(355deg) brightness(100%) contrast(120%);"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:shreyansh.workid@gmail.com">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" width="40" height="40" style="filter: invert(15%) sepia(100%) saturate(7500%) hue-rotate(355deg) brightness(100%) contrast(120%);"/>
   </a>
 </p>
 
-<div align="center">
+<span align="center">
+
 
   ![Visits](https://img.shields.io/badge/Visits-811-blue)
-</div>
+</span>
