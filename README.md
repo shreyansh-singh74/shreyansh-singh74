@@ -147,11 +147,3 @@ C++          29 mins         █▒░░░░░░░░░░░░░░░
   </a>
 </p>
 
-<<<<<<< HEAD
-=======
-<span align="center">
-
-
-  ![Visits](https://img.shields.io/badge/Visits-878-blue)
-</span>
->>>>>>> 3b4773e682a234b49dae70736605fea26f9e4e38
