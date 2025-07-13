@@ -28,8 +28,10 @@ jobs:
           echo "visits=$visits" >> $GITHUB_OUTPUT
 
       - name: Update README.md with formatted visits
+        env:
+          VISITS: ${{ steps.increment.outputs.visits }}
         run: |
-          visits=${{ steps.increment.outputs.visits }}
+          visits=$VISITS
 
           if [ "$visits" -ge 1000000 ]; then
             formatted_visits=$(python3 -c "v=$visits; r=v/1000000; print(f'{int(r)}M' if r==int(r) else f'{r:.1f}M')")
