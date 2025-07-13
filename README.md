@@ -16,7 +16,7 @@
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
 - 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp), a web app to save and organize your favorite links.
-- 📫 Reach me on: [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:shreyansh.workid@gmail.com)
+- 📫 Reach me on: [![Email](https://img.shields.io/badge/-shreyansh.workid@gmail.com-D14836?logo=gmail&logoColor=white&style=flat)](mailto:shreyansh.workid@gmail.com)
 
 
  
