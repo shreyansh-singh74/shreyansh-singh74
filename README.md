@@ -12,15 +12,17 @@
 </div>
 
 
-### About me
+<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: -12px"/>About me</h3>
+
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
 - 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp)
 - 📫 Reach me on : `shreyansh.workid@gmail.com`
 
 
+ 
+<h3><img src="assets/graph.gif" alt="Funny GIF" width="30" style="vertical-align: -8.5px"/> Skills</h3>
 
-### Skills 
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
@@ -39,7 +41,9 @@
 
 
 
-#### Week Spent On ⌛
+<h3><img src="assets/gif.gif" alt="Funny GIF" width="30" style="vertical-align: -8.5px"/> Week Spent On </h3>
+
+
 
 <!--START_SECTION:waka-->
 
@@ -131,16 +135,14 @@ C++          29 mins         █▓░░░░░░░░░░░░░░░
 ### 🤝 Let's Connect!
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/shreyansh-singh74/">
+  <a href="https://www.linkedin.com/in/shreyansh-singh74/" style="margin-left: 1px;">
     <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://x.com/ShreyanshWorks">
+  <a href="https://x.com/ShreyanshWorks" style="margin-left: 1px;">
     <img src="assets/x.png" alt="X" width="25"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://youtube.com/@shreyanshworks">
-    <img src="assets/yt.png" alt="YouTube" width="25"/>
+  <a href="https://youtube.com/@shreyanshworks" style="margin-left: 1px;">
+    <img src="assets/yt.png" alt="YouTube" width="25" style="vertical-align: 3px;"/>
   </a>
 </p>
 
