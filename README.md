@@ -124,7 +124,7 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Views-1k-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>
+  <img src="https://img.shields.io/badge/Views-1K-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>
 </div>
 
 ---
