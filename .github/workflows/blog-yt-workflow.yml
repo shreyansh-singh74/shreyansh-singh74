@@ -21,14 +21,16 @@ jobs:
         with:
           feed_list: "https://medium.com/feed/@shreyanshdon2005"
           comment_tag_name: "BLOG-POST-LIST"
-          max_post_count: 4
+          max_post_count: 3
 
       - name: Add YouTube videos
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg"
           comment_tag_name: "YOUTUBE-POST-LIST"
+          max_post_count: 3
           custom_tags: "channelId/yt:channelId/,videoId/yt:videoId/"
           date_format: "mmm d, yyyy"
           template: '<table><tr><td><a href="$url"><img width="140px" src="http://img.youtube.com/vi/$videoId/maxresdefault.jpg"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
 
+  
