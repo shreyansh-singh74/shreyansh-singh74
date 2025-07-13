@@ -107,11 +107,11 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 <td width="50%" valign="top">
 
 ### 📺 Latest YouTube Videos
-<!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg" alt="What is a .env File? Video Thumbnail"></a></td>
+<!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/shorts/8wisiga7bDQ">What is a .env File? | How to Create and Use?</a><br/>Jun 16, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg" alt="GitHub Gist Video Thumbnail"></a></td>
+<table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8">GitHub Gist: The Secret Tool You Never Use!</a><br/>May 8, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="140px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg" alt="LeetCode Video Thumbnail"></a></td>
+<table><tr><td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="140px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU">Solve Your First 100 LeetCode Question</a><br/>Apr 23, 2025</td></tr></table>
 <!-- YOUTUBE-POST-LIST:END -->
 
