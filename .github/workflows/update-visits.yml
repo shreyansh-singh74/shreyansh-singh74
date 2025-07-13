@@ -34,10 +34,29 @@ jobs:
           # Format the number with k for thousands in a structured manner
           if [ $visits -ge 1000000 ]; then
             # For millions (1M+)
-            formatted_visits=$(python3 -c "print(f'{$visits/1000000:.1f}'.rstrip('0').rstrip('.')+'M')")
+            formatted_visits=$(python3 -c "
+import math
+visits = $visits
+if visits >= 1000000:
+    result = visits / 1000000
+    if result == int(result):
+        print(f'{int(result)}M')
+    else:
+        print(f'{result:.1f}M')
+")
           elif [ $visits -ge 1000 ]; then
             # For thousands (1K+)
-            formatted_visits=$(python3 -c "print(f'{$visits/1000:.1f}'.rstrip('0').rstrip('.')+'K')")
+            formatted_visits=$(python3 -c "
+visits = $visits
+result = visits / 1000.0
+# For values like 1011, we want to show 1.0k, not 1k
+formatted_result = f'{result:.1f}'
+# Remove trailing zero only if it's a whole number greater than single digit
+if formatted_result.endswith('.0') and result >= 2.0:
+    print(f'{int(result)}k')
+else:
+    print(f'{formatted_result}k')
+")
           else
             # For numbers less than 1000
             formatted_visits=$visits
