@@ -31,9 +31,9 @@ jobs:
         run: |
           visits=${{ steps.increment.outputs.visits }}
 
-          if [ $visits -ge 1000000 ]; then
+          if [ "$visits" -ge 1000000 ]; then
             formatted_visits=$(python3 -c "v=$visits; r=v/1000000; print(f'{int(r)}M' if r==int(r) else f'{r:.1f}M')")
-          elif [ $visits -ge 1000 ]; then
+          elif [ "$visits" -ge 1000 ]; then
             formatted_visits=$(python3 -c "v=$visits; r=v/1000; fr=f'{r:.1f}'; print(f'{int(r)}k' if fr.endswith('.0') and r >= 2 else f'{fr}k')")
           else
             formatted_visits=$visits
