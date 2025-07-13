@@ -12,7 +12,7 @@
 </div>
 
 
-<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: -12px"/>About me</h3>
+<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/>About me</h3>
 
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
@@ -21,7 +21,7 @@
 
 
  
-<h3><img src="assets/graph.gif" alt="Funny GIF" width="30" style="vertical-align: -8.5px"/> Skills</h3>
+<h3><img src="assets/graph.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/> Skills</h3>
 
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
@@ -41,7 +41,7 @@
 
 
 
-<h3><img src="assets/gif.gif" alt="Funny GIF" width="30" style="vertical-align: -8.5px"/> Week Spent On </h3>
+<h3><img src="assets/gif.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/> Week Spent On </h3>
 
 
 
@@ -142,7 +142,7 @@ C++          29 mins         █▓░░░░░░░░░░░░░░░
     <img src="assets/x.png" alt="X" width="25"/>
   </a>
   <a href="https://youtube.com/@shreyanshworks" style="margin-left: 1px;">
-    <img src="assets/yt.png" alt="YouTube" width="25" style="vertical-align: 3px;"/>
+    <img src="assets/yt.png" alt="YouTube" width="25" style="vertical-align: middle;"/>
   </a>
 </p>
 
