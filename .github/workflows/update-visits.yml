@@ -13,7 +13,7 @@ on:
 jobs:
   update-visits:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,51 +27,26 @@ jobs:
           echo $visits > visits.txt
           echo "visits=$visits" >> $GITHUB_OUTPUT
 
-      - name: Update README.md
+      - name: Update README.md with formatted visits
         run: |
           visits=${{ steps.increment.outputs.visits }}
-          
-          # Format the number with k for thousands in a structured manner
+
+          # Format visits: 1.0k, 1.5k, 2M, etc.
           if [ $visits -ge 1000000 ]; then
-            # For millions (1M+)
-            formatted_visits=$(python3 -c "
-import math
-visits = $visits
-if visits >= 1000000:
-    result = visits / 1000000
-    if result == int(result):
-        print(f'{int(result)}M')
-    else:
-        print(f'{result:.1f}M')
-")
+            formatted_visits=$(python3 -c "v=$visits; r=v/1000000; print(f'{int(r)}M' if r==int(r) else f'{r:.1f}M')")
           elif [ $visits -ge 1000 ]; then
-            # For thousands (1K+)
-            formatted_visits=$(python3 -c "
-visits = $visits
-result = visits / 1000.0
-# For values like 1011, we want to show 1.0k, not 1k
-formatted_result = f'{result:.1f}'
-# Remove trailing zero only if it's a whole number greater than single digit
-if formatted_result.endswith('.0') and result >= 2.0:
-    print(f'{int(result)}k')
-else:
-    print(f'{formatted_result}k')
-")
+            formatted_visits=$(python3 -c "v=$visits; r=v/1000; fr=f'{r:.1f}'; print(f'{int(r)}k' if fr.endswith('.0') and r >= 2 else f'{fr}k')")
           else
-            # For numbers less than 1000
             formatted_visits=$visits
           fi
-          
+
           echo "Raw visits: $visits"
           echo "Formatted visits: $formatted_visits"
-          
-          # Create the new badge with formatted number
+
           new_badge="<img src=\"https://img.shields.io/badge/Views-${formatted_visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
-          
-          # Use perl for safe replacement (more reliable than sed)
+
+          # Replace old badge with new one in README.md
           perl -i -pe "s|<img src=\"https://img\.shields\.io/badge/Views-[^-]*-8B5CF6[^\"]*\" alt=\"Profile Views\"/>|$new_badge|g" README.md
-          
-          echo "Updated badge to show $formatted_visits visits"
 
       - name: Commit and push changes
         run: |
@@ -83,6 +58,5 @@ else:
           else
             git commit -m "🔢 Update visits count: ${{ steps.increment.outputs.visits }}"
             git push
-          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
