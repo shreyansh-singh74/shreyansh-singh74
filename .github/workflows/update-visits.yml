@@ -34,24 +34,9 @@ jobs:
           visits=$VISITS
 
           if [ "$visits" -ge 1000000 ]; then
-            formatted_visits=$(python3 -c "
-v = $visits
-r = v / 1000000
-if r == int(r):
-    print(f'{int(r)}M')
-else:
-    print(f'{r:.1f}M')
-")
+            formatted_visits=$(python3 -c "v=$visits; r=v/1000000; print(f'{int(r)}M' if r==int(r) else f'{r:.1f}M')")
           elif [ "$visits" -ge 1000 ]; then
-            formatted_visits=$(python3 -c "
-v = $visits
-r = v / 1000
-fr = f'{r:.1f}'
-if fr.endswith('.0') and r >= 2:
-    print(f'{int(r)}k')
-else:
-    print(f'{fr}k')
-")
+            formatted_visits=$(python3 -c "v=$visits; r=v/1000; fr=f'{r:.1f}'; print(f'{int(r)}k' if fr.endswith('.0') and r >= 2 else f'{fr}k')")
           else
             formatted_visits=$visits
           fi
@@ -66,7 +51,7 @@ else:
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: | 
+        run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add visits.txt README.md
@@ -75,3 +60,4 @@ else:
           else
             git commit -m "🔢 Update visits count: ${{ steps.increment.outputs.visits }}"
             git push
+          fi
