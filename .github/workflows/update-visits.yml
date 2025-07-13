@@ -31,13 +31,27 @@ jobs:
         run: |
           visits=${{ steps.increment.outputs.visits }}
           
-          # Create the new badge
-          new_badge="<img src=\"https://img.shields.io/badge/Views-${visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
+          # Format the number with k for thousands
+          if [ $visits -ge 1000 ]; then
+            # Calculate with one decimal place
+            formatted_visits=$(echo "scale=1; $visits / 1000" | bc)
+            # Remove trailing .0 if it's a whole number
+            formatted_visits=$(echo $formatted_visits | sed 's/\.0$//')
+            formatted_visits="${formatted_visits}k"
+          else
+            formatted_visits=$visits
+          fi
+          
+          echo "Raw visits: $visits"
+          echo "Formatted visits: $formatted_visits"
+          
+          # Create the new badge with formatted number
+          new_badge="<img src=\"https://img.shields.io/badge/Views-${formatted_visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
           
           # Use perl for safe replacement (more reliable than sed)
-          perl -i -pe "s|<img src=\"https://img\.shields\.io/badge/Views-\d+-8B5CF6[^\"]*\" alt=\"Profile Views\"/>|$new_badge|g" README.md
+          perl -i -pe "s|<img src=\"https://img\.shields\.io/badge/Views-[^-]*-8B5CF6[^\"]*\" alt=\"Profile Views\"/>|$new_badge|g" README.md
           
-          echo "Updated badge to show $visits visits"
+          echo "Updated badge to show $formatted_visits visits"
 
       - name: Commit and push changes
         run: |
