@@ -12,7 +12,7 @@
 </div>
 
 
-<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: -12px"/>About me</h3>
+<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: -120px"/>About me</h3>
 
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
