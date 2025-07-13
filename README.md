@@ -2,11 +2,11 @@
 
   <h1>
     Hii, I'm Shreyansh! 
-    <img src="assets/hii.webp " width="30px"/>
+    <img src="assets/hii.webp " width="30px" alt="Waving hand"/>
   </h1>
 
   <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px" style="vertical-align: middle;">
+    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px"  alt="India flag">
   </div>
 
 </div>
@@ -17,8 +17,8 @@
 
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
-- 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp)
-- 📫 Reach me on : `shreyansh.workid@gmail.com`
+- 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp), a web app to save and organize your favorite links.
+- 📫 Reach me on: [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:shreyansh.workid@gmail.com)
 
 
  
@@ -109,11 +109,11 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 <td width="50%" valign="top">
 
 ### 📺 Latest YouTube Videos
-<!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg"></a></td>
+<!-- YOUTUBE-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/shorts/8wisiga7bDQ"><img width="140px" src="http://img.youtube.com/vi/8wisiga7bDQ/maxresdefault.jpg" alt="What is a .env File? Video Thumbnail"></a></td>
 <td><a href="https://www.youtube.com/shorts/8wisiga7bDQ">What is a .env File? | How to Create and Use?</a><br/>Jun 16, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg"></a></td>
+<table><tr><td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8"><img width="140px" src="http://img.youtube.com/vi/YMVxFwxX2K8/maxresdefault.jpg" alt="GitHub Gist Video Thumbnail"></a></td>
 <td><a href="https://www.youtube.com/shorts/YMVxFwxX2K8">GitHub Gist: The Secret Tool You Never Use!</a><br/>May 8, 2025</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="140px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg"></a></td>
+<table><tr><td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU"><img width="140px" src="http://img.youtube.com/vi/iC-WX_sXkFU/maxresdefault.jpg" alt="LeetCode Video Thumbnail"></a></td>
 <td><a href="https://www.youtube.com/watch?v=iC-WX_sXkFU">Solve Your First 100 LeetCode Question</a><br/>Apr 23, 2025</td></tr></table>
 <!-- YOUTUBE-POST-LIST:END -->
 
