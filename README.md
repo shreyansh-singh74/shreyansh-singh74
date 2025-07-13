@@ -48,13 +48,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 04 July 2025 - To: 11 July 2025
+From: 05 July 2025 - To: 12 July 2025
 
-JavaScript   3 hrs 25 mins   ███████████░░░░░░░░░░░░░░   43.91 %
-Markdown     1 hr 18 mins    ████▒░░░░░░░░░░░░░░░░░░░░   16.75 %
-TypeScript   56 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.06 %
-YAML         49 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 %
-C++          29 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.23 %
+JavaScript   1 hr 55 mins    ████████▒░░░░░░░░░░░░░░░░   32.92 %
+Markdown     1 hr 18 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.39 %
+TypeScript   56 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.12 %
+YAML         49 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.09 %
+TSConfig     23 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
 ```
 
 <!--END_SECTION:waka-->
