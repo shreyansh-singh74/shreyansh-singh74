@@ -31,14 +31,15 @@ jobs:
         run: |
           visits=${{ steps.increment.outputs.visits }}
           
-          # Format the number with k for thousands
-          if [ $visits -ge 1000 ]; then
-            # Calculate with one decimal place
-            formatted_visits=$(echo "scale=1; $visits / 1000" | bc)
-            # Remove trailing .0 if it's a whole number
-            formatted_visits=$(echo $formatted_visits | sed 's/\.0$//')
-            formatted_visits="${formatted_visits}k"
+          # Format the number with k for thousands in a structured manner
+          if [ $visits -ge 1000000 ]; then
+            # For millions (1M+)
+            formatted_visits=$(python3 -c "print(f'{$visits/1000000:.1f}'.rstrip('0').rstrip('.')+'M')")
+          elif [ $visits -ge 1000 ]; then
+            # For thousands (1K+)
+            formatted_visits=$(python3 -c "print(f'{$visits/1000:.1f}'.rstrip('0').rstrip('.')+'K')")
           else
+            # For numbers less than 1000
             formatted_visits=$visits
           fi
           
