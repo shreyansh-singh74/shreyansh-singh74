@@ -31,7 +31,6 @@ jobs:
         run: |
           visits=${{ steps.increment.outputs.visits }}
 
-          # Format visits: 1.0k, 1.5k, 2M, etc.
           if [ $visits -ge 1000000 ]; then
             formatted_visits=$(python3 -c "v=$visits; r=v/1000000; print(f'{int(r)}M' if r==int(r) else f'{r:.1f}M')")
           elif [ $visits -ge 1000 ]; then
@@ -45,10 +44,11 @@ jobs:
 
           new_badge="<img src=\"https://img.shields.io/badge/Views-${formatted_visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
 
-          # Replace old badge with new one in README.md
           perl -i -pe "s|<img src=\"https://img\.shields\.io/badge/Views-[^-]*-8B5CF6[^\"]*\" alt=\"Profile Views\"/>|$new_badge|g" README.md
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -58,5 +58,3 @@ jobs:
           else
             git commit -m "🔢 Update visits count: ${{ steps.increment.outputs.visits }}"
             git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
