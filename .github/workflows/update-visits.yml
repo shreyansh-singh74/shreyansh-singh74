@@ -5,20 +5,20 @@ permissions:
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: '0 */12 * * *'  # Every 12 hours
+  workflow_dispatch:
 
 jobs:
   update-visits:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Increment visit counter
+      - name: Increment visits count
         id: increment
         run: |
           if [ ! -f visits.txt ]; then echo "0" > visits.txt; fi
@@ -27,29 +27,45 @@ jobs:
           echo $visits > visits.txt
           echo "visits=$visits" >> $GITHUB_OUTPUT
 
-      - name: Debug - Show visits and badge
-        run: |
-          echo "Views: ${{ steps.increment.outputs.visits }}"
-          echo "Badge: <img src=\"https://img.shields.io/badge/Views-${{ steps.increment.outputs.visits }}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
-
       - name: Update README.md
         run: |
           visits=${{ steps.increment.outputs.visits }}
-          badge="<img src=\"https://img.shields.io/badge/Views-${visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280\" alt=\"Profile Views\"/>"
-          sed -i.bak 's|<img src="https://img.shields.io/badge/Views-[0-9]*-8B5CF6[^"]*" alt="Profile Views"/>|'"$badge"'|' README.md
+          
+          # Use Python for safe string replacement
+          python3 << 'EOF'
+import re
 
-      - name: Set up authentication
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+# Read the README file
+with open('README.md', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Pattern to match the views badge (more specific)
+pattern = r'<img src="https://img\.shields\.io/badge/Views-\d+-8B5CF6\?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>'
+
+# New badge
+visits = "${{ steps.increment.outputs.visits }}"
+new_badge = f'<img src="https://img.shields.io/badge/Views-{visits}-8B5CF6?style=flat-square&logo=eye&logoColor=white&labelColor=6B7280" alt="Profile Views"/>'
+
+# Replace the badge
+new_content = re.sub(pattern, new_badge, content)
+
+# Write back to file
+with open('README.md', 'w', encoding='utf-8') as f:
+    f.write(new_content)
+
+print(f"Updated badge to show {visits} visits")
+EOF
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add visits.txt README.md
-          git commit -m 'Update visits count' || echo "No changes to commit"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔢 Update visits count: ${{ steps.increment.outputs.visits }}"
+            git push
+          fi
         env:
-          GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-
-          
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
