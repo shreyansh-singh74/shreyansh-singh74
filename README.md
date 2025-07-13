@@ -138,9 +138,11 @@ C++          29 mins         █▓░░░░░░░░░░░░░░░
   <a href="https://www.linkedin.com/in/shreyansh-singh74/">
     <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://x.com/ShreyanshWorks">
     <img src="assets/x.png" alt="X" width="25"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://youtube.com/@shreyanshworks">
     <img src="assets/yt.png" alt="YouTube" width="25"/>
   </a>
