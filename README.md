@@ -2,7 +2,7 @@
 
   <h1>
     Hii, I'm Shreyansh! 
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+    <img src="assets/hii.webp " width="30px"/>
   </h1>
 
   <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
@@ -12,7 +12,8 @@
 </div>
 
 
-<h3><img src="assets/goku.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/>About me</h3>
+### 👤 About Me
+
 
 - 💻 I develop Full-Stack Web Apps 
 - 🌱 I’m currently learning **NextJs**
@@ -21,7 +22,7 @@
 
 
  
-<h3><img src="assets/graph.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/> Skills</h3>
+### 🧰 Skills
 
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
@@ -41,7 +42,7 @@
 
 
 
-<h3><img src="assets/gif.gif" alt="Funny GIF" width="30" style="vertical-align: middle"/> Week Spent On </h3>
+### 🕒 Week Spent On
 
 
 
@@ -89,7 +90,7 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 
 
 <details>
-<summary>📝 My Posts</summary>
+<summary>✍️ My Posts</summary>
 
 <div align="center">
 
@@ -142,7 +143,7 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
     <img src="assets/x.png" alt="X" width="25"/>
   </a>
   <a href="https://youtube.com/@shreyanshworks" style="margin-left: 1px;">
-    <img src="assets/yt.png" alt="YouTube" width="25" style="vertical-align: middle;"/>
+    <img src="assets/yt.png" alt="YouTube" width="25" />
   </a>
 </p>
 
