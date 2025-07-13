@@ -98,7 +98,6 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 
 ### 📄 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-
 <!-- BLOG-POST-LIST:END -->
 
 </td>
@@ -106,7 +105,6 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE-POST-LIST:START -->
-
 <!-- YOUTUBE-POST-LIST:END -->
 
 </td>
