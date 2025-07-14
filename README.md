@@ -43,6 +43,16 @@
 ## 🕒 Week Spent On
 <!--START_SECTION:waka-->
 
+```txt
+From: 06 July 2025 - To: 13 July 2025
+
+JavaScript   1 hr 55 mins    ██████████▓░░░░░░░░░░░░░░   43.17 %
+TypeScript   56 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.14 %
+Markdown     34 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.07 %
+TSConfig     23 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.83 %
+YAML         12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.51 %
+```
+
 <!--END_SECTION:waka-->
 
 <details>
