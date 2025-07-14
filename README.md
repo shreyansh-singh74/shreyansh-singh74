@@ -5,7 +5,7 @@
   </h1>
 
   <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="25px"  alt="India flag">
+    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px"  alt="India flag">
   </div>
 </div>
 
