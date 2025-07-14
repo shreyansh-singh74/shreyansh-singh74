@@ -5,12 +5,12 @@
   </h1>
 
   <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px"  alt="India flag">
+    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="25px"  alt="India flag">
   </div>
 </div>
 
 
-### 👤 About Me
+## 👤 About Me
 
 
 - 💻 I develop Full-Stack Web Apps 
@@ -20,7 +20,7 @@
 
 
  
-### 🧰 Skills
+## 🧰 Skills
 
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
@@ -40,27 +40,14 @@
 
 
 
-### 🕒 Week Spent On
-
-
-
+## 🕒 Week Spent On
 <!--START_SECTION:waka-->
-
-```txt
-From: 05 July 2025 - To: 12 July 2025
-
-JavaScript   1 hr 55 mins    ████████▒░░░░░░░░░░░░░░░░   32.92 %
-Markdown     1 hr 18 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.39 %
-TypeScript   56 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.12 %
-YAML         49 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.09 %
-TSConfig     23 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
-```
 
 <!--END_SECTION:waka-->
 
 <details>
-  <summary>⚡ GitHub Stats</summary>
-  <br>
+  <summary> ⚡ GitHub Stats </summary>
+  
   <div align="center">
     <table>
       <tr>
@@ -134,16 +121,15 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 
 ### 🤝 Let's Connect!
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shreyansh-singh74/" style="margin-left: 1px;">
-    <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
-  </a>
-  <a href="https://x.com/ShreyanshWorks" style="margin-left: 1px;">
-    <img src="assets/x.png" alt="X" width="25"/>
-  </a>
-  <a href="https://youtube.com/@shreyanshworks" style="margin-left: 1px;">
-    <img src="assets/yt.png" alt="YouTube" width="25" />
-  </a>
-</p>
-
+  <p align="center">
+    <a href="https://www.linkedin.com/in/shreyansh-singh74/" style="margin-left: 1px;">
+      <img src="assets/linkedin.png" alt="LinkedIn" width="25"/>
+    </a>
+    <a href="https://x.com/ShreyanshWorks" style="margin-left: 1px;">
+      <img src="assets/x.png" alt="X" width="25"/>
+    </a>
+    <a href="https://youtube.com/@shreyanshworks" style="margin-left: 1px;">
+      <img src="assets/yt.png" alt="YouTube" width="25" />
+    </a>
+  </p>
 </div>
