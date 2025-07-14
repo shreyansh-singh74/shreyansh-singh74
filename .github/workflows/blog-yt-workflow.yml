@@ -16,53 +16,67 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Add blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://medium.com/feed/@shreyanshdon2005"
-          comment_tag_name: "BLOG-POST-LIST"
-          max_post_count: 3
-
-      - name: Fetch YouTube videos
+      - name: Fetch blog posts and YouTube videos
         run: |
-          # Fetch the latest videos from YouTube RSS feed
-          curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg" > youtube_feed.xml
+          # Install required Python packages
+          pip install feedparser requests
           
-          # Parse XML and create markdown list
+          # Fetch blog posts and YouTube videos
           python3 << 'EOF'
+          import feedparser
+          import requests
           import xml.etree.ElementTree as ET
           import re
           
-          # Parse the XML feed
-          tree = ET.parse('youtube_feed.xml')
-          root = tree.getroot()
+          # Fetch Medium blog posts
+          print("Fetching Medium blog posts...")
+          blog_feed = feedparser.parse("https://medium.com/feed/@shreyanshdon2005")
+          blog_posts = []
+          for entry in blog_feed.entries[:3]:
+              title = entry.title
+              link = entry.link
+              blog_posts.append(f"- [{title}]({link})")
           
-          # Extract video information
+          blog_content = '\n'.join(blog_posts)
+          print("Blog posts fetched:")
+          print(blog_content)
+          
+          # Fetch YouTube videos
+          print("\nFetching YouTube videos...")
+          youtube_response = requests.get("https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg")
+          youtube_response.raise_for_status()
+          
+          # Parse YouTube XML
+          root = ET.fromstring(youtube_response.content)
           videos = []
           for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry')[:3]:
               title = entry.find('.//{http://www.w3.org/2005/Atom}title').text
               link = entry.find('.//{http://www.w3.org/2005/Atom}link').get('href')
               videos.append(f"- [{title}]({link})")
           
-          # Create the markdown content with proper line breaks
           youtube_content = '\n'.join(videos)
+          print("YouTube videos fetched:")
+          print(youtube_content)
           
           # Read current README
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
           
-          # Replace content between YouTube tags with proper formatting
-          pattern = r'(<!-- YOUTUBE-POST-LIST:START -->).*?(<!-- YOUTUBE-POST-LIST:END -->)'
-          replacement = f'\\1\n{youtube_content}\n\\2'
-          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          # Replace blog posts content
+          blog_pattern = r'(<!-- BLOG-POST-LIST:START -->).*?(<!-- BLOG-POST-LIST:END -->)'
+          blog_replacement = f'\\1\n{blog_content}\n\\2'
+          content = re.sub(blog_pattern, blog_replacement, content, flags=re.DOTALL)
+          
+          # Replace YouTube content
+          youtube_pattern = r'(<!-- YOUTUBE-POST-LIST:START -->).*?(<!-- YOUTUBE-POST-LIST:END -->)'
+          youtube_replacement = f'\\1\n{youtube_content}\n\\2'
+          content = re.sub(youtube_pattern, youtube_replacement, content, flags=re.DOTALL)
           
           # Write back to README
           with open('README.md', 'w', encoding='utf-8') as f:
-              f.write(new_content)
+              f.write(content)
           
-          print("YouTube videos updated successfully!")
-          print("Generated content:")
-          print(youtube_content)
+          print("\nREADME updated successfully!")
           EOF
 
       - name: Commit changes
