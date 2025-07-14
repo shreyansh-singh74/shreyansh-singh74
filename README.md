@@ -106,7 +106,9 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 <td width="50%" valign="top">
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE-POST-LIST:START -->
-
+- [What is a .env File? | How to Create and Use?](https://www.youtube.com/shorts/8wisiga7bDQ)
+- [GitHub Gist: The Secret Tool You Never Use!](https://www.youtube.com/shorts/YMVxFwxX2K8)
+- [Solve Your First 100 LeetCode Question](https://www.youtube.com/watch?v=iC-WX_sXkFU)
 <!-- YOUTUBE-POST-LIST:END -->
 </td>
 </tr>
