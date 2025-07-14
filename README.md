@@ -99,8 +99,9 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 ### 📄 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-
-
+- [chekcing](https://shreyanshdon2005.medium.com/chekcing-72854967d50b?source=rss-e1325ac72520------2)
+- [How to make Naruto using python turtle](https://shreyanshdon2005.medium.com/how-to-make-naruto-using-python-turtle-5b082dec2cf?source=rss-e1325ac72520------2)
+- [Python turtle projects | Increase turtle speed](https://shreyanshdon2005.medium.com/increase-speed-of-turtle-without-the-turtle-speed-python-turtle-2b6fcd719947?source=rss-e1325ac72520------2)
 <!-- BLOG-POST-LIST:END -->
 
 </td>
@@ -110,8 +111,9 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE-POST-LIST:START -->
-
-
+- [What is a .env File? | How to Create and Use?](https://www.youtube.com/shorts/8wisiga7bDQ)
+- [GitHub Gist: The Secret Tool You Never Use!](https://www.youtube.com/shorts/YMVxFwxX2K8)
+- [Solve Your First 100 LeetCode Question](https://www.youtube.com/watch?v=iC-WX_sXkFU)
 <!-- YOUTUBE-POST-LIST:END -->
 
 </td>
