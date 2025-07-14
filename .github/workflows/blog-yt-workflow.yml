@@ -23,12 +23,58 @@ jobs:
           comment_tag_name: "BLOG-POST-LIST"
           max_post_count: 3
 
-      - name: Add YouTube videos
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg"
-          comment_tag_name: "YOUTUBE-POST-LIST"
-          max_post_count: 3
-          template: |
-            - [$title]($url)
+      - name: Fetch YouTube videos
+        run: |
+          # Fetch the latest videos from YouTube RSS feed
+          curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCXNrjLW_LjgNBbF9LuW6htg" > youtube_feed.xml
+          
+          # Parse XML and create markdown list
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          import re
+          
+          # Parse the XML feed
+          tree = ET.parse('youtube_feed.xml')
+          root = tree.getroot()
+          
+          # Extract video information
+          videos = []
+          for entry in root.findall('.//{http://www.w3.org/2005/Atom}entry')[:3]:
+              title = entry.find('.//{http://www.w3.org/2005/Atom}title').text
+              link = entry.find('.//{http://www.w3.org/2005/Atom}link').get('href')
+              videos.append(f"- [{title}]({link})")
+          
+          # Create the markdown content with proper line breaks
+          youtube_content = '\n'.join(videos)
+          
+          # Read current README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          # Replace content between YouTube tags with proper formatting
+          pattern = r'(<!-- YOUTUBE-POST-LIST:START -->).*?(<!-- YOUTUBE-POST-LIST:END -->)'
+          replacement = f'\\1\n{youtube_content}\n\\2'
+          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          
+          # Write back to README
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+          
+          print("YouTube videos updated successfully!")
+          print("Generated content:")
+          print(youtube_content)
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+          else
+            git add README.md
+            git commit -m "📝 Update blog posts and YouTube videos"
+            git push
+          fi
 

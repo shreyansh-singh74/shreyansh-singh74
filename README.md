@@ -95,18 +95,16 @@ TSConfig     23 mins         █▓░░░░░░░░░░░░░░░
 <table>
 <tr>
 <td width="50%" valign="top">
-
 ### 📄 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
-
 </td>
-<td width="50%" valign="top">
 
+<td width="50%" valign="top">
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE-POST-LIST:START -->
-<!-- YOUTUBE-POST-LIST:END -->
 
+<!-- YOUTUBE-POST-LIST:END -->
 </td>
 </tr>
 </table>
