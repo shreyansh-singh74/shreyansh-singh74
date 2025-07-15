@@ -4,24 +4,22 @@
     <img src="assets/hii.webp " width="30px" alt="Waving hand"/>
   </h1>
 
-  <div style="background:#0d1117;padding:10px;border-radius:6px;color:white;font-family:monospace;">
-    <b>🌐 Full-Stack Developer From</b>  <img src="assets/flag.png" width="20px"  alt="India flag">
+  <div>
+    <b>🌐 Full-Stack Developer From</b>  
+    <img src="assets/flag.png" width="20px"  alt="India flag">
   </div>
 </div>
 
 
 ## 👤 About Me
-
-
-- 💻 I develop Full-Stack Web Apps 
+- 💻 I develop **Full-Stack** Web Apps 
 - 🌱 I’m currently learning **NextJs**
 - 🔭 I’m currently working on [**Bookmark APP**](https://github.com/shreyansh-singh74/BookMarkApp), a web app to save and organize your favorite links.
-- 📧 Reach me on: [email ](mailto:shreyansh.workid@gmail.com)
+- 📧 Reach me on: [email](mailto:shreyansh.workid@gmail.com)
 
 
  
 ## 🧰 Skills
-
 ![C++](https://img.shields.io/badge/-Cpp-00599C?logo=cplusplus&logoColor=white&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
@@ -55,7 +53,7 @@
           <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api?username=shreyansh-singh74&show_icons=true&theme=dark&hide_border=true" alt="Shreyansh's GitHub Stats" />
         </td>
         <td align="center">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyansh-singh74&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+          <img src="https://github-readme-stats-git-master-shreyanshworkid-4698s-projects.vercel.app/api/top-langs/?username=shreyansh-singh74&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
         </td>
       </tr>
       <tr>
@@ -64,12 +62,12 @@
         </td>
       </tr>
     </table>
-    <br>
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg">
       <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/github-contribution-grid-snake.svg">
     </picture>
+
   </div>
 </details>
 
@@ -86,9 +84,7 @@
 ### 📄 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [chekcing](https://shreyanshdon2005.medium.com/chekcing-72854967d50b?source=rss-e1325ac72520------2)
-- [How to make Naruto using python turtle](https://shreyanshdon2005.medium.com/how-to-make-naruto-using-python-turtle-5b082dec2cf?source=rss-e1325ac72520------2)
-- [Python turtle projects | Increase turtle speed](https://shreyanshdon2005.medium.com/increase-speed-of-turtle-without-the-turtle-speed-python-turtle-2b6fcd719947?source=rss-e1325ac72520------2)
+
 <!-- BLOG-POST-LIST:END -->
 
 </td>
@@ -98,9 +94,7 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE-POST-LIST:START -->
-- [What is a .env File? | How to Create and Use?](https://www.youtube.com/shorts/8wisiga7bDQ)
-- [GitHub Gist: The Secret Tool You Never Use!](https://www.youtube.com/shorts/YMVxFwxX2K8)
-- [Solve Your First 100 LeetCode Question](https://www.youtube.com/watch?v=iC-WX_sXkFU)
+
 <!-- YOUTUBE-POST-LIST:END -->
 
 </td>
