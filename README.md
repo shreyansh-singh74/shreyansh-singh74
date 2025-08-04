@@ -2,7 +2,10 @@
 
 ###
 
-<p align="left">I am a Full Stack Developer</p>
+<img align="right" height="250" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />
+
+
+<p align="center">I'm Full Stack Developer From India 🇮🇳</p>
 
 ###
 
@@ -10,11 +13,10 @@
 
 ###
 
-<img align="right" height="180" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />
 
 ###
 
-<p align="left">🔭 I’m currently working on BookMark App<br>🌱 I’m currently learning NextJs<br>🤔 I’m looking for help with AI<br>💬 Ask me about Web Development<br>📫 How to reach me: shreyansh.workid@gmail.com</p>
+<p align="left">🔭 I’m currently working on <b>BookMark App</b> <br>🌱 I’m currently learning <b>NextJs</b><br>🤔 I’m looking for help with <b>AI</b><br>💬 Ask me about <b>Web Development</b><br>📫 How to reach me: <a href="mailto:">email</a></p>
 
 ###
 
@@ -92,7 +94,8 @@ No activity tracked
 <!--END_SECTION:waka-->
 
 
-
+<details>
+<summary>Github Stats</summary>
 <div align="center">
   <img src="https://github-readme-statss-six-woad.vercel.app/api?username=shreyansh-singh74&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-statss-six-woad.vercel.app/api/top-langs?username=shreyansh-singh74&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
@@ -101,10 +104,11 @@ No activity tracked
 ###
 
 <img src="https://raw.githubusercontent.com/shreyansh-singh74/shreyansh-singh74/output/snake.svg" alt="Snake animation" />
+</details>
 
 ###
 
-<div align="left">
+<div align="center">
   <a href="https://www.linkedin.com/in/shreyansh-singh74/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
