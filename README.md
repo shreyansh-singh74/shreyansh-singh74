@@ -6,9 +6,8 @@
 
 
 ###
-
-<h2 align="left">About me</h2>
 <img align="right" height="200" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />
+<h2 align="left">About me</h2>
 
 <p align="left">🔭 I’m currently working on <b>BookMark App</b> <br>🌱 I’m currently learning <b>NextJs</b><br>🤔 I’m looking for help with <b>AI</b><br>💬 Ask me about <b>Web Development</b><br>📫 How to reach me: <a href="mailto:">email</a></p>
 
