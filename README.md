@@ -79,12 +79,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 31 July 2025 - To: 07 August 2025
+From: 01 August 2025 - To: 08 August 2025
 
-Total Time: 1 hr 14 mins
+Total Time: 1 hr 27 mins
 
-Markdown   57 mins         ███████████████████▒░░░░░   77.36 %
-YAML       16 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.64 %
+Markdown     57 mins         ████████████████▒░░░░░░░░   65.57 %
+YAML         16 mins         ████▓░░░░░░░░░░░░░░░░░░░░   19.19 %
+JavaScript   11 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.09 %
+JSON         1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.15 %
 ```
 
 <!--END_SECTION:waka-->
