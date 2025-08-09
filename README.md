@@ -9,7 +9,7 @@
 
 <h2 align="left">About me</h2>
 
-<img align="right"  height="180" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />  
+<img align="right"  height="150" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />  
 
 
 <p align="left">🔭 I’m currently working on <b>BookMark App</b> <br>🌱 I’m currently learning <b>NextJs</b><br>🤔 I’m looking for help with <b>AI</b><br>💬 Ask me about <b>Web Development</b><br>📫 How to reach me: <a href="mailto:">email</a></p>
@@ -92,7 +92,7 @@ JSON         1 min           ▓░░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
 
-<details align="center">
+<details align="left">
 <summary>Github Stats</summary>
 <div align="center">
   <img src="https://github-readme-statss-six-woad.vercel.app/api?username=shreyansh-singh74&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
@@ -117,6 +117,6 @@ JSON         1 min           ▓░░░░░░░░░░░░░░░░
 
 ###
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=shreyansh-singh74.shreyansh-singh74&"  />
+<img align="left" src="https://visitor-badge.laobi.icu/badge?page_id=shreyansh-singh74.shreyansh-singh74&"  />
 
 ###
