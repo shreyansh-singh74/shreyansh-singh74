@@ -1,20 +1,19 @@
 <h1 align="center">Hii 👋 I'm Shreyansh</h1>
 
 ###
+
 <p align="center">I'm Full Stack Developer From India 🇮🇳</p>
-
-
 
 ###
 
 <h2 align="left">About me</h2>
 
-<img align="right"  height="150" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />  
-
+<img align="right"  height="150" src="https://user-images.githubusercontent.com/80779522/144221644-a873830d-6ce8-4221-975a-e05c7fb6319a.gif"  />
 
 <p align="left">🔭 I’m currently working on <b>BookMark App</b> <br>🌱 I’m currently learning <b>NextJs</b><br>🤔 I’m looking for help with <b>AI</b><br>💬 Ask me about <b>Web Development</b><br>📫 How to reach me: <a href="mailto:">email</a></p>
 
 ###
+
 <h2 align="left">Skills</h2>
 
 ###
@@ -75,7 +74,6 @@
 
 ###
 
-
 <!--START_SECTION:waka-->
 
 ```txt
@@ -91,7 +89,6 @@ JSON         1 min           ░░░░░░░░░░░░░░░░░
 ```
 
 <!--END_SECTION:waka-->
-
 
 <details align="left">
 <summary>Github Stats</summary>
@@ -111,9 +108,13 @@ JSON         1 min           ░░░░░░░░░░░░░░░░░
   <a href="https://www.linkedin.com/in/shreyansh-singh74/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+  <a href="https://x.com/ShreyanshWorks" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  </a>
+  <a href="https://www.youtube.com/@codebhadra" target="_blank">
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
+  </a>
+
 </div>
 
 ###
