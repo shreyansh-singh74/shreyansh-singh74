@@ -77,14 +77,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 September 2025 - To: 09 September 2025
+From: 03 September 2025 - To: 10 September 2025
 
-Total Time: 17 hrs 9 mins
+Total Time: 12 hrs 55 mins
 
-TypeScript    17 hrs          ████████████████████████▓   99.08 %
-Other         4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 %
-Bash          3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 %
-Image (svg)   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 %
+TypeScript    12 hrs 46 mins  ████████████████████████▓   98.82 %
+Other         4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Bash          3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
+Image (svg)   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
 Git Config    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
