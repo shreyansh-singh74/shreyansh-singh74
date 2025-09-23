@@ -77,15 +77,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 September 2025 - To: 20 September 2025
+From: 15 September 2025 - To: 22 September 2025
 
-Total Time: 2 hrs 28 mins
+Total Time: 3 hrs 13 mins
 
-YAML         37 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.07 %
-Text         29 mins         █████░░░░░░░░░░░░░░░░░░░░   19.94 %
-Markdown     19 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.11 %
-Makefile     15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.47 %
-TypeScript   12 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 %
+TypeScript   2 hrs 2 mins    ███████████████▓░░░░░░░░░   63.18 %
+YAML         35 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.55 %
+Markdown     12 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.69 %
+JavaScript   7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.03 %
+Docker       7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 %
 ```
 
 <!--END_SECTION:waka-->
