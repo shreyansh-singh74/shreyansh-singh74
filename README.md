@@ -77,15 +77,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 October 2025 - To: 08 October 2025
+From: 02 October 2025 - To: 09 October 2025
 
-Total Time: 51 mins
+Total Time: 48 mins
 
-Python       21 mins         ██████████▒░░░░░░░░░░░░░░   41.67 %
-Text         10 mins         █████░░░░░░░░░░░░░░░░░░░░   19.70 %
-JSON         7 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.58 %
-Git Config   3 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.38 %
-Docker       2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.45 %
+Python       21 mins         ███████████░░░░░░░░░░░░░░   44.07 %
+Text         10 mins         █████▒░░░░░░░░░░░░░░░░░░░   20.84 %
+JSON         7 mins          ████░░░░░░░░░░░░░░░░░░░░░   16.48 %
+Git Config   3 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
+TypeScript   2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.98 %
 ```
 
 <!--END_SECTION:waka-->
