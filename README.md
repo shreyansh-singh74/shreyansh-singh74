@@ -77,13 +77,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 October 2025 - To: 17 October 2025
+From: 11 October 2025 - To: 18 October 2025
 
-Total Time: 5 mins
+Total Time: 0 secs
 
-JSON         5 mins          ████████████████████████▓   98.96 %
-Bash         0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
