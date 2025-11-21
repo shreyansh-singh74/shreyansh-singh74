@@ -72,19 +72,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
 </div>
 
-###
 
-<!--START_SECTION:waka-->
-
-```txt
-From: 13 November 2025 - To: 20 November 2025
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
 
 <details align="left">
 <summary>Github Stats</summary>
