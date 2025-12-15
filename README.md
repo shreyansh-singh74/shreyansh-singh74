@@ -1,6 +1,4 @@
 
-<h2 align="center">Hii 👋 I'm <b>Shreyansh</b></h2>
-
 ```yaml
 name: Shreyansh Singh
 located_in: [Mumbai, India 🇮🇳]
