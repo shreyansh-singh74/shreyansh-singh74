@@ -38,11 +38,10 @@ hobbies: [Competitive Programming, Building Side Projects, Cricket]
 
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=shreyansh-singh74.shreyansh-singh74&format=true&style=flat&left_color=555555&right_color=555555" />
+  <img src="https://komarev.com/ghpvc/?username=shreyansh-singh74&style=flat-square&color=000000&labelColor=000000" />
   &nbsp;
   <a href="https://github.com/ellerbrock/open-source-badges">
   <img src="https://img.shields.io/badge/Open%20Source-❤-000000?style=flat&labelColor=000000" />
 </a>
-
 </p>
 
