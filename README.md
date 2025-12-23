@@ -24,7 +24,7 @@ hobbies: [Competitive Programming, Building Side Projects, Cricket]
   <tbody>
     <tr>
       <td align="center">
-        <kbd>C++</kbd> <kbd>Python</kbd> <kbd>JavaScript</kbd> <kbd>Java</kbd>
+        <kbd>C++</kbd> <kbd>Python</kbd> <kbd>TypeScript</kbd> <kbd>Java</kbd>
       </td>
       <td align="center">
         <kbd>React</kbd> <kbd>Next.js</kbd> <kbd>Node.js</kbd> <kbd>Express</kbd> <kbd>FastAPI</kbd>
