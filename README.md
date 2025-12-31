@@ -1,4 +1,3 @@
-
 ```yaml
 name: Shreyansh Singh
 located_in: [Mumbai, India 🇮🇳]
@@ -10,10 +9,11 @@ will_learn: [Machine Learning]
 hobbies: [Competitive Programming, Building Side Projects, Cricket]
 ```
 
+email: [singhshreyansh9324@gmail.com](mailto:singhshreyansh9324@gmail.com)
 
 
 
-<table width="100%" border="1" cellspacing="0" cellpadding="8">
+<table width="100%">
   <thead>
     <tr>
       <th align="center">Languages</th>
@@ -36,12 +36,12 @@ hobbies: [Competitive Programming, Building Side Projects, Cricket]
   </tbody>
 </table>
 
+---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shreyansh-singh74&style=flat-square&color=000000&labelColor=000000" />
   &nbsp;
   <a href="https://github.com/ellerbrock/open-source-badges">
-  <img src="https://img.shields.io/badge/Open%20Source-❤-000000?style=flat&labelColor=000000" />
-</a>
+    <img src="https://img.shields.io/badge/Open%20Source-❤-000000?style=flat&labelColor=000000" />
+  </a>
 </p>
-
