@@ -9,9 +9,6 @@ will_learn: [Machine Learning]
 hobbies: [Competitive Programming, Building Side Projects, Cricket]
 ```
 
-email: [singhshreyansh9324@gmail.com](mailto:singhshreyansh9324@gmail.com)
-
-
 
 <table width="100%">
   <thead>
