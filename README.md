@@ -10,7 +10,7 @@ hobbies: [Competitive Programming, Building Side Projects, Cricket]
 
 ```
 
-<a href="https://talk-flow-black.vercel.app/" target="_blank">project : Talkflow </a>
+<a href="https://talk-flow-black.vercel.app/" target="_blank">Project : Talkflow </a>
 <table width="100%">
   <thead>
     <tr>
