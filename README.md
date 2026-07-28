@@ -7,9 +7,10 @@ fields_of_interests: [Full-stack Development, Artificial Intelligence, Backend S
 currently_learning: [AI, Web Development (Next.js)]
 will_learn: [Machine Learning]
 hobbies: [Competitive Programming, Building Side Projects, Cricket]
+
 ```
 
-
+<a href="https://talk-flow-black.vercel.app/" target="_blank">project : Talkflow </a>
 <table width="100%">
   <thead>
     <tr>
