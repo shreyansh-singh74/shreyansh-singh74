@@ -9,7 +9,7 @@ will_learn: [Machine Learning]
 hobbies: [Competitive Programming, Building Side Projects, Cricket]
 
 ```
-Featured Projects: <a href="https://talk-flow-black.vercel.app/" target="_blank" rel="noopener noreferrer">TalkFlow ↗</a>, <a href="https://pocket-vault-rust.vercel.app/" target="_blank" rel="noopener noreferrer">PocketVault ↗</a>
+Featured Projects: <a href="https://talk-flow-black.vercel.app/" target="_blank" rel="noopener noreferrer">TalkFlow ↗</a>, <a href="https://pocket-vault-rust.vercel.app/" target="_blank" rel="noopener noreferrer">Obsin ↗</a>
 
 <table width="100%">
   <thead>
